@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"time"
 
 	"github.com/astaxie/beego/logs"
 	"gopkg.in/mgo.v2/bson"
@@ -12,7 +13,7 @@ import (
 
 // Profile API
 type ProfileController struct {
-	baseController
+	BaseController
 }
 
 func (c *ProfileController) URLMapping() {
@@ -33,6 +34,11 @@ func (c *ProfileController) CreateProfile() {
 		logs.Error(err.Error())
 		c.serveError(http.StatusBadRequest, err.Error())
 	}
+
+	// Default values.
+	profile.ID = bson.NewObjectId()
+	profile.Created = time.Now()
+	profile.Updated = time.Now()
 
 	// Insert.
 	err = models.Insert(models.ProfileCollectionName, profile)
@@ -59,7 +65,7 @@ func (c *ProfileController) GetProfile(profile_id *string) {
 	}
 
 	// Prepare query.
-	var profile models.Profile
+	profile := new(models.Profile)
 
 	// Read.
 	err := models.Read(models.ProfileCollectionName, *profile_id, profile)
@@ -116,6 +122,10 @@ func (c *ProfileController) UpdateProfile(profile_id *string) {
 		c.serveError(http.StatusBadRequest, err.Error())
 	}
 
+	// Update default fields.
+	profile.ID = bson.ObjectIdHex(*profile_id)
+	profile.Updated = time.Now()
+
 	// Update.
 	err = models.Update(models.ProfileCollectionName, *profile_id, profile)
 	if err != nil {
@@ -139,11 +149,8 @@ func (c *ProfileController) DeleteProfile(profile_id *string) {
 		c.serveError(http.StatusBadRequest, err.Error())
 	}
 
-	// Prepare query.
-	profile := &models.Profile{Id: bson.ObjectIdHex(*profile_id)}
-
 	// Delete.
-	err := models.Delete(models.ProfileCollectionName, profile)
+	err := models.Delete(models.ProfileCollectionName, *profile_id)
 	if err != nil {
 		logs.Error(err.Error())
 		c.serveError(http.StatusInternalServerError, err.Error())

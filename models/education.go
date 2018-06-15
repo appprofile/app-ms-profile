@@ -11,7 +11,7 @@ const (
 )
 
 type Education struct {
-	Id          bson.ObjectId `bson:"_id" json:"id"`
+	ID          bson.ObjectId `bson:"_id" json:"id"`
 	Course      string        `bson:"course" json:"course"`
 	Institute   string        `bson:"institute" json:"institute"`
 	From        time.Time     `bson:"from" json:"from"`

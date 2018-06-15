@@ -815,3 +815,124 @@
 2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:2694
 2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:1830
 2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:2361
+2018/06/15 15:57:31.441 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:57:31.441 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:57:31.443 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:573
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/panic.go:505
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:231
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:1367
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:2694
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:1830
+2018/06/15 15:57:34.947 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:2361
+2018/06/15 15:59:54.465 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:59:54.465 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:59:54.469 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:59:56.242 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:59:56.242 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:59:56.245 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:573
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/panic.go:505
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:231
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:1367
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:2694
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:1830
+2018/06/15 16:00:05.245 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:2361
+2018/06/15 16:05:24.570 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:05:24.570 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:05:24.572 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:05:26.397 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:05:26.397 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:05:26.399 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:10:27.554 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:10:27.554 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:10:27.557 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:10:29.298 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:10:29.298 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:10:29.301 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:10:31.657 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:10:31] "GET /v1/profile HTTP/1.1 200 0" 0.001186  PostmanRuntime/7.1.1
+
+2018/06/15 16:12:14.069 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger HTTP/1.1 302 0" 0.000035  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.129 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/ HTTP/1.1 304 0" 0.000125  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.153 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/swagger-ui-bundle.js HTTP/1.1 200 0" 0.002870 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.248 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/swagger-ui.css HTTP/1.1 304 0" 0.000134 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.264 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1 304 0" 0.000244 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.460 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/swagger.json HTTP/1.1 200 0" 0.000125 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:22:26.296 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:22:26.296 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:22:26.299 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:22:28.049 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:22:28.049 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:22:28.051 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:44:00.610 [E] [profilecontroller.go:19] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/15 16:46:10.975 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:46:10] "GET /v1/profile HTTP/1.1 200 0" 0.000419  PostmanRuntime/7.1.1
+
+2018/06/15 16:52:32.217 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:52:32.217 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:52:32.219 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:52:33.947 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:52:33.947 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:52:33.950 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:52:36.513 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:52:36] "POST /v1/profile HTTP/1.1 200 0" 0.236329  PostmanRuntime/7.1.1
+
+2018/06/15 16:52:43.576 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:52:43] "GET /v1/profile HTTP/1.1 200 0" 0.016764  PostmanRuntime/7.1.1
+
+2018/06/15 16:54:00.759 [E] [asm_amd64.s:573] Unmarshal can't deal with struct values. Use a pointer.
+2018/06/15 16:54:44.949 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:54:44.949 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:54:44.951 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:54:46.728 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:54:46.728 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:54:46.730 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:54:52.351 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:54:52] "GET /v1/profile/5b2435242c786d6509139b5f HTTP/1.1 200 0" 0.001059  PostmanRuntime/7.1.1
+
+2018/06/15 16:55:02.353 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:55:02.353 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:55:02.356 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:55:04.078 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:55:04.078 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:55:04.081 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:56:46.393 [E] [profilecontroller.go:20] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/15 16:57:52.803 [E] [asm_amd64.s:573] invalid character '1' after object key:value pair
+2018/06/15 16:58:07.170 [E] [asm_amd64.s:573] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/15 16:58:49.325 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:58:49.326 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:58:49.329 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:58:51.129 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:58:51.129 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:58:51.132 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:58:53.738 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:58:53] "PATCH /v1/profile/5b2435242c786d6509139b5f HTTP/1.1 200 0" 0.019628  PostmanRuntime/7.1.1
+
+2018/06/15 16:58:59.501 [E] [profilecontroller.go:20] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/15 16:59:02.143 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:59:02] "GET /v1/profile/5b2435242c786d6509139b5f HTTP/1.1 200 0" 0.000491  PostmanRuntime/7.1.1
+
+2018/06/15 16:59:37.822 [E] [asm_amd64.s:573] not found
+2018/06/15 17:01:47.186 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 17:01:47.186 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 17:01:47.188 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 17:01:48.901 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 17:01:48.902 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 17:01:48.904 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 17:01:50.494 [D] [server.go:2694] ::1 - - [15/Jun/2018 05:01:50] "DELETE /v1/profile/5b2435242c786d6509139b5f HTTP/1.1 200 0" 0.001014  PostmanRuntime/7.1.1
+
+2018/06/15 17:01:53.982 [E] [asm_amd64.s:573] not found
+2018/06/15 17:02:17.380 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 17:02:17.380 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 17:02:17.383 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 17:02:19.094 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 17:02:19.094 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 17:02:19.097 [I] [asm_amd64.s:2361] http server Running on http://:8080

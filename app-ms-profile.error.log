@@ -1,0 +1,8 @@
+2018/06/15 16:44:00.610 [E] [profilecontroller.go:19] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/15 16:54:00.759 [E] [asm_amd64.s:573] Unmarshal can't deal with struct values. Use a pointer.
+2018/06/15 16:56:46.393 [E] [profilecontroller.go:20] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/15 16:57:52.803 [E] [asm_amd64.s:573] invalid character '1' after object key:value pair
+2018/06/15 16:58:07.170 [E] [asm_amd64.s:573] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/15 16:58:59.501 [E] [profilecontroller.go:20] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/15 16:59:37.822 [E] [asm_amd64.s:573] not found
+2018/06/15 17:01:53.982 [E] [asm_amd64.s:573] not found

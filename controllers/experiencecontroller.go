@@ -2,7 +2,7 @@ package controllers
 
 // Experience API
 type ExperienceController struct {
-	baseController
+	BaseController
 }
 
 func (c *ExperienceController) URLMapping() {

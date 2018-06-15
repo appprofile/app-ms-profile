@@ -11,7 +11,7 @@ const (
 )
 
 type Experience struct {
-	Id          bson.ObjectId `bson:"_id" json:"id"`
+	ID          bson.ObjectId `bson:"_id" json:"id"`
 	Title       string        `bson:"title" json:"title"`
 	Company     string        `bson:"company" json:"company"`
 	From        time.Time     `bson:"from" json:"from"`

@@ -76,3 +76,31 @@
 
 2018/06/15 15:20:58.451 [D] [server.go:2694] ::1 - - [15/Jun/2018 03:20:58] "GET /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573 HTTP/1.1 404 0" 0.000166  PostmanRuntime/7.1.1
 
+2018/06/15 16:10:31.657 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:10:31] "GET /v1/profile HTTP/1.1 200 0" 0.001186  PostmanRuntime/7.1.1
+
+2018/06/15 16:12:14.069 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger HTTP/1.1 302 0" 0.000035  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.129 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/ HTTP/1.1 304 0" 0.000125  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.153 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/swagger-ui-bundle.js HTTP/1.1 200 0" 0.002870 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.248 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/swagger-ui.css HTTP/1.1 304 0" 0.000134 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.264 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1 304 0" 0.000244 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:12:14.460 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:12:14] "GET /swagger/swagger.json HTTP/1.1 200 0" 0.000125 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 16:46:10.975 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:46:10] "GET /v1/profile HTTP/1.1 200 0" 0.000419  PostmanRuntime/7.1.1
+
+2018/06/15 16:52:36.513 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:52:36] "POST /v1/profile HTTP/1.1 200 0" 0.236329  PostmanRuntime/7.1.1
+
+2018/06/15 16:52:43.576 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:52:43] "GET /v1/profile HTTP/1.1 200 0" 0.016764  PostmanRuntime/7.1.1
+
+2018/06/15 16:54:52.351 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:54:52] "GET /v1/profile/5b2435242c786d6509139b5f HTTP/1.1 200 0" 0.001059  PostmanRuntime/7.1.1
+
+2018/06/15 16:58:53.738 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:58:53] "PATCH /v1/profile/5b2435242c786d6509139b5f HTTP/1.1 200 0" 0.019628  PostmanRuntime/7.1.1
+
+2018/06/15 16:59:02.143 [D] [server.go:2694] ::1 - - [15/Jun/2018 04:59:02] "GET /v1/profile/5b2435242c786d6509139b5f HTTP/1.1 200 0" 0.000491  PostmanRuntime/7.1.1
+
+2018/06/15 17:01:50.494 [D] [server.go:2694] ::1 - - [15/Jun/2018 05:01:50] "DELETE /v1/profile/5b2435242c786d6509139b5f HTTP/1.1 200 0" 0.001014  PostmanRuntime/7.1.1
+

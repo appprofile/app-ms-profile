@@ -154,3 +154,66 @@
 2018/06/15 15:42:50.135 [I] [proc.go:198] The app.rest is set up correctly.
 2018/06/15 15:42:50.135 [I] [proc.go:198] Listen and serve at 8080
 2018/06/15 15:42:50.138 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:57:31.441 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:57:31.441 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:57:31.443 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:59:54.465 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:59:54.465 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:59:54.469 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:59:56.242 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:59:56.242 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:59:56.245 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:05:24.570 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:05:24.570 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:05:24.572 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:05:26.397 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:05:26.397 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:05:26.399 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:10:27.554 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:10:27.554 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:10:27.557 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:10:29.298 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:10:29.298 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:10:29.301 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:22:26.296 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:22:26.296 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:22:26.299 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:22:28.049 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:22:28.049 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:22:28.051 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:52:32.217 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:52:32.217 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:52:32.219 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:52:33.947 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:52:33.947 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:52:33.950 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:54:44.949 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:54:44.949 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:54:44.951 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:54:46.728 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:54:46.728 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:54:46.730 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:55:02.353 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:55:02.353 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:55:02.356 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:55:04.078 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:55:04.078 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:55:04.081 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:58:49.325 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:58:49.326 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:58:49.329 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 16:58:51.129 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 16:58:51.129 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 16:58:51.132 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 17:01:47.186 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 17:01:47.186 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 17:01:47.188 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 17:01:48.901 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 17:01:48.902 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 17:01:48.904 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 17:02:17.380 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 17:02:17.380 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 17:02:17.383 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 17:02:19.094 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 17:02:19.094 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 17:02:19.097 [I] [asm_amd64.s:2361] http server Running on http://:8080

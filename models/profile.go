@@ -11,7 +11,7 @@ const (
 )
 
 type Profile struct {
-	Id          bson.ObjectId `bson:"_id" json:"id"`
+	ID          bson.ObjectId `bson:"_id" json:"id"`
 	Name        string        `bson:"name" json:"name"`
 	Address     string        `bson:"address" json:"address"`
 	Phone       uint64        `bson:"phone" json:"phone"`

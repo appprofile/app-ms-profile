@@ -2,7 +2,7 @@ package controllers
 
 // Education API
 type EducationController struct {
-	baseController
+	BaseController
 }
 
 func (c *EducationController) URLMapping() {

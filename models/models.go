@@ -63,8 +63,8 @@ func Update(collection string, id string, model interface{}) error {
 	return err
 }
 
-func Delete(collection string, model interface{}) error {
+func Delete(collection string, id string) error {
 	d := GetDB()
-	err := d.C(collection).Remove(model)
+	err := d.C(collection).Remove(bson.M{"_id": bson.ObjectIdHex(id)})
 	return err
 }
