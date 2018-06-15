@@ -1,0 +1,78 @@
+2018/06/15 11:34:47.751 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger HTTP/1.1 302 0" 0.000057  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:47.757 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger/ HTTP/1.1 200 0" 0.000102  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:47.791 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger/swagger-ui.css HTTP/1.1 200 0" 0.000156 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:47.794 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1 200 0" 0.002952 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:47.802 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger/swagger-ui-bundle.js HTTP/1.1 200 0" 0.010764 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:48.124 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:48] "GET /swagger/swagger.json HTTP/1.1 200 0" 0.000125 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:48.427 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:48] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000089 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:48.445 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:48] "GET /swagger/favicon-16x16.png HTTP/1.1 200 0" 0.000101 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.219 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger HTTP/1.1 302 0" 0.000052  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.225 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/ HTTP/1.1 304 0" 0.000103  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.250 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/swagger-ui.css HTTP/1.1 304 0" 0.000079 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.258 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/swagger-ui-bundle.js HTTP/1.1 304 0" 0.007063 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.259 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1 304 0" 0.003012 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.512 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000067 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:37:51.770 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:37:51] "GET /swagger/ HTTP/1.1 304 0" 0.000090  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:37:52.059 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:37:52] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000112 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:37:52.064 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:37:52] "GET /swagger/favicon-16x16.png HTTP/1.1 304 0" 0.000063 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:06.248 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:06] "GET /favicon.ico HTTP/1.1 404 0" 0.000353 http://localhost:8080/swagger/swagger.json Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:07.203 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:07] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000082  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:10.833 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:10] "GET /swagger HTTP/1.1 302 0" 0.000038  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:19.481 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:19] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000028  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:19.904 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:19] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000060  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:20.232 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:20] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000027  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:20.489 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:20] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000047  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:20.690 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:20] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000026  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:20.866 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:20] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000039  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:21.049 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:21] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000056  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:21.240 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:21] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000032  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:39:27.525 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:39:27] "GET /swagger/swagger.json HTTP/1.1 200 0" 0.000198  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:39:30.358 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:39:30] "GET /swagger/ HTTP/1.1 304 0" 0.000085  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:39:30.419 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:39:30] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000038 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:39:30.493 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:39:30] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000080 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:34.122 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:34] "GET /swagger/ HTTP/1.1 304 0" 0.000157  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:34.210 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:34] "GET /swagger/swagger.json HTTP/1.1 200 0" 0.000146 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:34.351 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:34] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000061 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:41.704 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:41] "GET /swagger/ HTTP/1.1 304 0" 0.000083  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:41.774 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:41] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000024 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:41.883 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:41] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000061 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 15:20:58.451 [D] [server.go:2694] ::1 - - [15/Jun/2018 03:20:58] "GET /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573 HTTP/1.1 404 0" 0.000166  PostmanRuntime/7.1.1
+

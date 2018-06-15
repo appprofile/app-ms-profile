@@ -1,0 +1,505 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "app-ms-profile.",
+        "description": "Profiles microservice.",
+        "version": "1.0.0",
+        "contact": {
+            "email": "app.profile.kruger@gmail.com"
+        },
+        "license": {}
+    },
+    "basePath": "/v1",
+    "paths": {
+        "/profile/": {
+            "get": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Get profiles.",
+                "operationId": "ProfileController.GetProfiles"
+            },
+            "post": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Create profile.",
+                "operationId": "ProfileController.CreateProfile",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Profile"
+                        }
+                    }
+                }
+            }
+        },
+        "/profile/{profile_id}": {
+            "get": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Get profile.",
+                "operationId": "ProfileController.GetProfile",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Profile"
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Delete profile.",
+                "operationId": "ProfileController.DeleteProfile",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            },
+            "patch": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Update profile.",
+                "operationId": "ProfileController.UpdateProfile",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Profile"
+                        }
+                    }
+                }
+            }
+        },
+        "/profile/{profile_id}/education": {
+            "get": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Get educations.",
+                "operationId": "EducationController.GetEducations",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            },
+            "post": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Add education.",
+                "operationId": "EducationController.AddEducation",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Education"
+                        }
+                    }
+                }
+            }
+        },
+        "/profile/{profile_id}/education/{education_id}": {
+            "get": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Get education.",
+                "operationId": "EducationController.GetEducation",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "path",
+                        "name": "education_id",
+                        "description": "Education Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Education"
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Delete education.",
+                "operationId": "EducationController.DeleteEducation",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "path",
+                        "name": "education_id",
+                        "description": "Education Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            },
+            "patch": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Update educations.",
+                "operationId": "EducationController.UpdateEducations",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "path",
+                        "name": "education_id",
+                        "description": "Education Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Education"
+                        }
+                    }
+                }
+            }
+        },
+        "/profile/{profile_id}/experience": {
+            "get": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Get experiences.",
+                "operationId": "ExperienceController.GetExperiences",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            },
+            "post": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Add experience.",
+                "operationId": "ExperienceController.AddExperience",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Experience"
+                        }
+                    }
+                }
+            }
+        },
+        "/profile/{profile_id}/experience/{experience_id}": {
+            "get": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Get experience.",
+                "operationId": "ExperienceController.GetExperience",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "path",
+                        "name": "experience_id",
+                        "description": "Experience Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Experience"
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Delete experience.",
+                "operationId": "ExperienceController.DeleteExperience",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "path",
+                        "name": "experience_id",
+                        "description": "Experience Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            },
+            "patch": {
+                "tags": [
+                    "profile"
+                ],
+                "description": "Update experience.",
+                "operationId": "ExperienceController.UpdateExperience",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "profile_id",
+                        "description": "Profile Id.",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "path",
+                        "name": "experience_id",
+                        "description": "Experience Id.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/models.Experience"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "bson.ObjectId": {
+            "type": "object"
+        },
+        "models.Education": {
+            "title": "Education",
+            "type": "object",
+            "properties": {
+                "course": {
+                    "type": "string"
+                },
+                "created": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "id": {
+                    "$ref": "#/definitions/bson.ObjectId"
+                },
+                "institute": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "updated": {
+                    "type": "string",
+                    "format": "string"
+                }
+            }
+        },
+        "models.Experience": {
+            "title": "Experience",
+            "type": "object",
+            "properties": {
+                "company": {
+                    "type": "string"
+                },
+                "created": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "id": {
+                    "$ref": "#/definitions/bson.ObjectId"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "updated": {
+                    "type": "string",
+                    "format": "string"
+                }
+            }
+        },
+        "models.Profile": {
+            "title": "Profile",
+            "type": "object",
+            "properties": {
+                "abilities": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "address": {
+                    "type": "string"
+                },
+                "created": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "education": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/models.Education"
+                    }
+                },
+                "experiences": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/models.Experience"
+                    }
+                },
+                "id": {
+                    "$ref": "#/definitions/bson.ObjectId"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "phone": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "updated": {
+                    "type": "string",
+                    "format": "string"
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "profile",
+            "description": "Education API\n"
+        }
+    ]
+}

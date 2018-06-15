@@ -1,0 +1,817 @@
+2018/06/15 11:23:11.164 [I] The app.rest is set up correctly.
+2018/06/15 11:23:11.164 [I] Listen and serve at 8080
+2018/06/15 11:23:11.167 [I] http server Running on http://:8080
+2018/06/15 11:23:13.467 [I] The app.rest is set up correctly.
+2018/06/15 11:23:13.467 [I] Listen and serve at 8080
+2018/06/15 11:23:13.470 [I] http server Running on http://:8080
+2018/06/15 11:28:21.116 [I] The app.rest is set up correctly.
+2018/06/15 11:28:21.116 [I] Listen and serve at 8080
+2018/06/15 11:28:21.120 [I] http server Running on http://:8080
+2018/06/15 11:28:23.483 [I] The app.rest is set up correctly.
+2018/06/15 11:28:23.483 [I] Listen and serve at 8080
+2018/06/15 11:28:23.486 [I] http server Running on http://:8080
+2018/06/15 11:29:59.948 [C] the request url is  /v1/profile
+2018/06/15 11:29:59.948 [C] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 11:29:59.948 [C] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 11:29:59.948 [C] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 11:29:59.948 [C] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 11:29:59.948 [C] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 11:29:59.948 [C] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 11:29:59.948 [C] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 11:29:59.948 [C] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 11:29:59.948 [C] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 11:29:59.948 [C] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 11:31:35.269 [C] the request url is  /v1/profile
+2018/06/15 11:31:35.269 [C] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 11:31:35.269 [C] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 11:31:35.269 [C] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 11:31:35.269 [C] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 11:31:35.269 [C] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 11:31:35.269 [C] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 11:31:35.269 [C] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 11:31:35.269 [C] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 11:31:35.269 [C] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 11:31:35.269 [C] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 11:32:04.925 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 11:32:04.925 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 11:32:04.928 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 11:32:07.597 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 11:33:18.570 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 11:33:18.570 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 11:33:18.573 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 11:33:21.057 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 11:33:21.057 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 11:33:21.060 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 11:33:23.436 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] the request url is  /v1/profile/
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 11:33:58.237 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 11:34:27.448 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 11:34:27.448 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 11:34:27.451 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] the request url is  /v1/profile/
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 11:34:30.043 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 11:34:38.040 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 11:34:38.040 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 11:34:38.043 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 11:34:47.751 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger HTTP/1.1 302 0" 0.000057  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:47.757 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger/ HTTP/1.1 200 0" 0.000102  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:47.791 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger/swagger-ui.css HTTP/1.1 200 0" 0.000156 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:47.794 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1 200 0" 0.002952 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:47.802 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:47] "GET /swagger/swagger-ui-bundle.js HTTP/1.1 200 0" 0.010764 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:48.124 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:48] "GET /swagger/swagger.json HTTP/1.1 200 0" 0.000125 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:48.427 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:48] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000089 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:34:48.445 [D] [server.go:2619] ::1 - - [15/Jun/2018 11:34:48] "GET /swagger/favicon-16x16.png HTTP/1.1 200 0" 0.000101 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] the request url is  /v1/profile/
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 11:36:45.037 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:12:25.390 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:12:25.390 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:12:25.393 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] the request url is  /v1/profile/
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:12:27.932 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:12:30.867 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:15:12.343 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:15:12.343 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:15:12.368 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:15:15.580 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:32:27.263 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:32:27.263 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:32:27.266 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:32:29.214 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:32:29.619 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:32:29.619 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:32:29.622 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:32:33.399 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:32:33.399 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:32:33.399 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:32:33.400 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:32:33.400 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:32:33.400 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:32:33.400 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:32:33.400 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:32:33.400 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:32:33.400 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:32:33.400 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:34:34.198 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:34:34.198 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:34:34.201 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:34:37.430 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:35:04.611 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:35:04.611 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:35:04.614 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:35:05.348 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:35:05.348 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:35:05.352 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:35:11.485 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:35:11.485 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:35:11.488 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:35:25.460 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:35:25.460 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:35:25.463 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:35:31.801 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:35:31.801 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:35:31.804 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:35:39.359 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:36:47.219 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger HTTP/1.1 302 0" 0.000052  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.225 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/ HTTP/1.1 304 0" 0.000103  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.250 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/swagger-ui.css HTTP/1.1 304 0" 0.000079 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.258 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/swagger-ui-bundle.js HTTP/1.1 304 0" 0.007063 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.259 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1 304 0" 0.003012 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:36:47.512 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:36:47] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000067 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:37:46.750 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:37:46.750 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:37:46.754 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:37:48.955 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:37:48.955 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:37:48.957 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:37:51.770 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:37:51] "GET /swagger/ HTTP/1.1 304 0" 0.000090  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:37:52.059 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:37:52] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000112 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:37:52.064 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:37:52] "GET /swagger/favicon-16x16.png HTTP/1.1 304 0" 0.000063 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:06.248 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:06] "GET /favicon.ico HTTP/1.1 404 0" 0.000353 http://localhost:8080/swagger/swagger.json Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:07.203 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:07] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000082  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:10.833 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:10] "GET /swagger HTTP/1.1 302 0" 0.000038  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:19.481 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:19] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000028  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:19.904 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:19] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000060  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:20.232 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:20] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000027  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:20.489 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:20] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000047  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:20.690 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:20] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000026  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:20.866 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:20] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000039  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:21.049 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:21] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000056  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:38:21.240 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:38:21] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000032  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:39:23.947 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:39:23.947 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:39:23.950 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:39:27.525 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:39:27] "GET /swagger/swagger.json HTTP/1.1 200 0" 0.000198  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:39:30.358 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:39:30] "GET /swagger/ HTTP/1.1 304 0" 0.000085  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:39:30.419 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:39:30] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000038 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:39:30.493 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:39:30] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000080 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:39:34.199 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:39:35.470 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:41:53.564 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:41:53.564 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:41:53.568 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:41:55.967 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:41:55.967 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:41:55.970 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:41:57.402 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:42:06.094 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:42:06.094 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:42:06.097 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:42:08.466 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:42:08.466 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:42:08.470 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:42:15.951 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:42:15.951 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:42:15.954 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:42:18.352 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:42:18.352 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:42:18.355 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:42:21.154 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:42:21.154 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:42:21.157 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:42:23.623 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:42:23.623 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:42:23.626 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:42:25.023 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:42:25.023 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:42:25.026 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:42:25.771 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:42:25.771 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:42:25.774 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:42:34.122 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:34] "GET /swagger/ HTTP/1.1 304 0" 0.000157  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:34.210 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:34] "GET /swagger/swagger.json HTTP/1.1 200 0" 0.000146 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:34.351 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:34] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000061 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:41.704 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:41] "GET /swagger/ HTTP/1.1 304 0" 0.000083  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:41.774 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:41] "GET /swagger/swagger.json HTTP/1.1 304 0" 0.000024 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:42:41.883 [D] [server.go:2619] ::1 - - [15/Jun/2018 01:42:41] "GET /swagger/favicon-32x32.png HTTP/1.1 200 0" 0.000061 http://localhost:8080/swagger/ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36
+
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] the request url is  /v1/profile
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:43:19.758 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] the request url is  /v1/profile/1
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:43:27.905 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] the request url is  /v1/profile/l
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:43:35.333 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 13:50:42.699 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:50:42.699 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:50:42.702 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:50:45.169 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 13:50:45.169 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 13:50:45.172 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] the request url is  /v1/profile/
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 13:50:48.052 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 14:23:41.794 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 14:23:41.794 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 14:23:41.797 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] the request url is  /v1/profile/
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:509
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/panic.go:491
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:225
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/reflect/value.go:1351
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:2619
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/net/http/server.go:1801
+2018/06/15 14:23:45.670 [C] [asm_amd64.s:509] /home/innova4j-31/go/go1.9.2/src/runtime/asm_amd64.s:2337
+2018/06/15 14:28:14.017 [I] [proc.go:195] The app.rest is set up correctly.
+2018/06/15 14:28:14.017 [I] [proc.go:195] Listen and serve at 8080
+2018/06/15 14:28:14.020 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/06/15 14:32:12.483 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 14:32:12.483 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 14:32:12.486 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 14:36:32.125 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 14:37:09.758 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 14:37:09.758 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 14:37:09.761 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 14:37:13.318 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 14:37:13.318 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 14:37:13.318 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 14:37:13.318 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 14:37:13.318 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 14:37:13.318 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 14:37:13.318 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 14:37:13.318 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 14:37:13.319 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 14:37:13.319 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 14:37:13.319 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 14:44:13.148 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 14:44:13.148 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 14:44:13.151 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 14:44:24.634 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 14:56:47.175 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 14:56:47.175 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 14:56:47.178 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 14:56:49.708 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:08:33.761 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:08:33.761 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:08:33.764 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:08:35.514 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:08:35.514 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:08:35.517 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:08:36.629 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:08:37.451 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:08:37.658 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:08:37.658 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:08:37.658 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:08:37.658 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:08:37.658 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:08:37.658 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:08:37.658 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:08:37.659 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:08:37.659 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:08:37.659 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:08:37.659 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:08:38.016 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:08:38.316 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:08:38.316 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:08:38.316 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:08:38.316 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:08:38.317 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:08:38.317 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:08:38.317 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:08:38.317 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:08:38.317 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:08:38.317 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:08:38.317 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:15:02.991 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:15:02.991 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:15:02.994 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:15:05.769 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:15:06.719 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:16:36.019 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:16:36.019 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:16:36.021 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:16:39.555 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:16:40.289 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:16:40.560 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:16:40.832 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:16:41.006 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:16:41.211 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:16:41.762 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] the request url is  /v1/profile/
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:20:10.265 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:20:12.037 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:20:27.342 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:20:40.379 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:20:58.451 [D] [server.go:2694] ::1 - - [15/Jun/2018 03:20:58] "GET /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573 HTTP/1.1 404 0" 0.000166  PostmanRuntime/7.1.1
+
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:21:05.401 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:22:18.832 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:22:18.832 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:22:18.835 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:22:21.908 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:24:21.288 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:24:21.288 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:24:21.290 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:24:25.830 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:31:21.734 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:31:21.734 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:31:21.737 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:573
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/panic.go:502
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:231
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/reflect/value.go:1367
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:2694
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/net/http/server.go:1830
+2018/06/15 15:31:24.764 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10.3/src/runtime/asm_amd64.s:2361
+2018/06/15 15:36:38.702 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:36:38.702 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:36:38.723 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:573
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/panic.go:505
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:231
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:1367
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:2694
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:1830
+2018/06/15 15:36:41.432 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:2361
+2018/06/15 15:37:28.835 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:37:28.835 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:37:28.838 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:573
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/panic.go:505
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:231
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:1367
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:2694
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:1830
+2018/06/15 15:37:37.090 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:2361
+2018/06/15 15:38:35.029 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:38:35.029 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:38:35.032 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:573
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/panic.go:505
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:231
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:1367
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:2694
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:1830
+2018/06/15 15:38:37.829 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:2361
+2018/06/15 15:40:32.311 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:40:32.311 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:40:32.314 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:573
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/panic.go:505
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:231
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:1367
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:2694
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:1830
+2018/06/15 15:40:35.120 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:2361
+2018/06/15 15:42:50.135 [I] [proc.go:198] The app.rest is set up correctly.
+2018/06/15 15:42:50.135 [I] [proc.go:198] Listen and serve at 8080
+2018/06/15 15:42:50.138 [I] [asm_amd64.s:2361] http server Running on http://:8080
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] the request url is  /v1/profile
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] Handler crashed with error reflect: reflect.Value.Set using value obtained using unexported field
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:573
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/panic.go:505
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:231
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/reflect/value.go:1367
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:206
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/goworkspace/src/app-ms-profile/vendor/github.com/astaxie/beego/router.go:795
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:2694
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/net/http/server.go:1830
+2018/06/15 15:42:54.457 [C] [asm_amd64.s:573] /home/innova4j-31/go/go1.10/src/runtime/asm_amd64.s:2361
