@@ -4,13 +4,24 @@ RESTful API for profiles CRUD.
 
 ## Installing
 
+**NOTE:** It is not necessary execute this step if you only want to run the microservice. Go to **Deployment** section.
+
 ### Installing Golang
 
+Download golang from [here](https://golang.org/dl/). Extract the content in `$HOME/go`. 
 
+Make sure to configure the following environment vars.
+
+```
+# Golang config.
+export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=$HOMEgoworkspace
+export PATH=$PATH:$GOPATH/bin
+export GOBIN=$GOPATH/bin
+```
 
 ### Installing Beego
-
-**NOTE:** It is not necessary execute this step if you only want to run the microservice.
 
 Follow the next steps to install the framework Beego in Cloud9. See the official
 guide here https://beego.me/docs/install/bee.md
@@ -40,7 +51,13 @@ $ bee
 
 ### Development server
 
-#### Run
+#### Run with Docker
+
+Run `docker build -t app-ms-profile .` to build the image. 
+
+Run `docker-compose up` to execute. 
+
+**NOTE:** Make sure you have the right `CONFIG_SERVER` and `CONFIG_BRANCH` in the `docker-compose.yml` file.
 
 #### Run with Beego
 
