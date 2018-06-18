@@ -6,21 +6,19 @@ import (
 	"gopkg.in/mgo.v2/bson"
 )
 
-const (
-	EducationCollectionName = "education"
-)
+// EducationWrapper Education wrapper.
+type EducationWrapper struct {
+	Educations []*Education `json:"educations"`
+}
 
+// Education struct.
 type Education struct {
 	ID          bson.ObjectId `bson:"_id" json:"id"`
-	Course      string        `bson:"course" json:"course"`
-	Institute   string        `bson:"institute" json:"institute"`
-	From        time.Time     `bson:"from" json:"from"`
-	To          time.Time     `bson:"to" json:"to"`
+	Course      string        `bson:"course" json:"course" validate:"required"`
+	Institute   string        `bson:"institute" json:"institute" validate:"required"`
+	From        time.Time     `bson:"from" json:"from" validate:"required"`
+	To          time.Time     `bson:"to" json:"to" validate:"required"`
 	Description string        `bson:"description" json:"description"`
 	Created     time.Time     `bson:"created" json:"created"`
 	Updated     time.Time     `bson:"updated" json:"updated"`
-}
-
-func (p *Education) CollectionName() string {
-	return EducationCollectionName
 }

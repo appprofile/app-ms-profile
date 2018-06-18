@@ -6,3 +6,31 @@
 2018/06/15 16:58:59.501 [E] [profilecontroller.go:20] ObjectIDs must be exactly 12 bytes long (got 0)
 2018/06/15 16:59:37.822 [E] [asm_amd64.s:573] not found
 2018/06/15 17:01:53.982 [E] [asm_amd64.s:573] not found
+2018/06/17 17:15:27.455 [E] [once.go:44] no reachable servers
+2018/06/17 17:23:29.415 [E] [profilecontroller.go:20] json: cannot unmarshal string into Go struct field Profile.phone of type uint64
+2018/06/17 17:23:43.556 [E] [profilecontroller.go:20] json: cannot unmarshal string into Go struct field Profile.phone of type uint64
+2018/06/17 17:24:58.064 [E] [profilecontroller.go:20] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/17 17:38:29.706 [E] [profilecontroller.go:20] ObjectIDs must be exactly 12 bytes long (got 0)
+2018/06/17 18:52:29.368 [E] [asm_amd64.s:573] not found
+2018/06/17 19:18:55.043 [E] [asm_amd64.s:573] not found
+2018/06/17 19:19:34.841 [E] [asm_amd64.s:573] not found
+2018/06/17 19:22:57.841 [E] [asm_amd64.s:573] not found
+2018/06/17 19:30:08.924 [E] [asm_amd64.s:573] Key: 'Experience.Company' Error:Field validation for 'Company' failed on the 'required' tag
+Key: 'Experience.From' Error:Field validation for 'From' failed on the 'required' tag
+Key: 'Experience.To' Error:Field validation for 'To' failed on the 'required' tag
+2018/06/17 20:39:33.627 [E] [asm_amd64.s:573] Key: 'Education.Course' Error:Field validation for 'Course' failed on the 'required' tag
+Key: 'Education.Institute' Error:Field validation for 'Institute' failed on the 'required' tag
+2018/06/17 20:40:00.905 [E] [asm_amd64.s:573] Key: 'Education.Course' Error:Field validation for 'Course' failed on the 'required' tag
+2018/06/17 20:58:20.897 [E] [asm_amd64.s:573] experienceID can not be empty
+2018/06/17 20:58:24.616 [E] [asm_amd64.s:573] experienceID can not be empty
+2018/06/17 20:59:03.198 [E] [asm_amd64.s:573] experienceID can not be empty
+2018/06/17 20:59:38.074 [E] [asm_amd64.s:573] experienceID can not be empty
+2018/06/17 21:04:48.511 [E] [asm_amd64.s:573] not found
+2018/06/17 21:05:04.275 [E] [asm_amd64.s:573] not found
+2018/06/17 21:08:34.692 [E] [asm_amd64.s:573] The field 'experiences' must be an array but is of type object in document {_id: ObjectId('5b26f4c563d59e5a2d34b7e5')}
+2018/06/17 21:09:02.615 [E] [asm_amd64.s:573] Cannot apply $pull to a non-array value
+2018/06/17 21:11:53.289 [E] [asm_amd64.s:573] not found
+2018/06/17 21:34:34.939 [E] [asm_amd64.s:573] not found
+2018/06/17 21:35:08.937 [E] [asm_amd64.s:573] The positional operator did not find the match needed from the query.
+2018/06/17 21:38:27.424 [E] [asm_amd64.s:573] not found
+2018/06/17 21:39:52.026 [E] [asm_amd64.s:573] not found

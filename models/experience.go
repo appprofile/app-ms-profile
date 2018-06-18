@@ -6,21 +6,19 @@ import (
 	"gopkg.in/mgo.v2/bson"
 )
 
-const (
-	ExperienceCollectionName = "experience"
-)
+// ExperienceWrapper Experience wrapper.
+type ExperienceWrapper struct {
+	Experiences []*Experience `json:"experiences"`
+}
 
+// Experience struct.
 type Experience struct {
 	ID          bson.ObjectId `bson:"_id" json:"id"`
-	Title       string        `bson:"title" json:"title"`
-	Company     string        `bson:"company" json:"company"`
-	From        time.Time     `bson:"from" json:"from"`
-	To          time.Time     `bson:"to" json:"to"`
+	Title       string        `bson:"title" json:"title" validate:"required"`
+	Company     string        `bson:"company" json:"company" validate:"required"`
+	From        time.Time     `bson:"from" json:"from" validate:"required"`
+	To          time.Time     `bson:"to" json:"to" validate:"required"`
 	Description string        `bson:"description" json:"description"`
 	Created     time.Time     `bson:"created" json:"created"`
 	Updated     time.Time     `bson:"updated" json:"updated"`
-}
-
-func (p *Experience) CollectionName() string {
-	return ExperienceCollectionName
 }
