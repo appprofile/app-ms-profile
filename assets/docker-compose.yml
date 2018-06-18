@@ -1,3 +1,5 @@
+version: '2'
+
 services:
   app-ms-profile:
     image: app-ms-profile
@@ -7,5 +9,3 @@ services:
       - CONFIG_BRANCH=master
     ports:
       - 8081:8081
-    volumes:
-      - /home/innova4j/tmp/:/tmp/

@@ -1,4 +1,7 @@
-FROM library/golang
+#FROM library/golang
+FROM golang:1.10.3
+
+RUN apt-get update; apt-get install -qq make gettext-base; apt-get clean
 
 # Godep for vendoring
 RUN go get github.com/tools/godep
@@ -10,8 +13,9 @@ ENV APP_DIR $GOPATH/src/app-ms-profile
 RUN mkdir -p $APP_DIR
 
 # Add files.
-COPY /assets/app.conf /.setup/
-COPY /assets/run.sh /
+ADD . $APP_DIR
+COPY ./assets/app.conf /.setup/
+COPY ./assets/run.sh /
 
 # Expose port.
 EXPOSE 8081

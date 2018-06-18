@@ -6,11 +6,9 @@ export CONFIG_SERVER=${CONFIG_SERVER:-http://localhost:8082}
 export CONFIG_BRANCH=${CONFIG_BRANCH:-master}
 
 # Generate app.conf
-if [ ! -f /conf/app.conf ]; then
-	echo "Generating app.conf..."
-	envsubst < /.setup/conf/app.conf > /conf/app.conf
-fi
+echo "Generating app.conf..."
+envsubst < /.setup/app.conf > $APP_DIR/conf/app.conf
 
 # Start app-ms-profile
-go build && ./main
+cd $APP_DIR && CGO_ENABLED=0 go build && ./app-ms-profile
 echo "Service started."

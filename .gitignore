@@ -1,0 +1,4 @@
+*.log
+tests/*
+app-ms-profile
+lastupdate.tmp

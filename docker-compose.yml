@@ -1,9 +1,11 @@
+version: '2'
+
 services:
   app-ms-profile:
     image: app-ms-profile
     environment:
       - RUN_MODE=dev
-      - CONFIG_SERVER=http://localhost:8082
+      - CONFIG_SERVER=http://192.168.0.107:8082
       - CONFIG_BRANCH=master
     ports:
       - 8081:8081
