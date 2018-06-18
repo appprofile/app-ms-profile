@@ -1,6 +1,7 @@
 package models
 
 import (
+	_ "app-ms-profile/conf"
 	"sync"
 
 	"gopkg.in/go-playground/validator.v9"
@@ -14,7 +15,8 @@ import (
 
 var (
 	// Server Server string.
-	Server string
+	Server   string
+	DialInfo *mgo.DialInfo
 	// Database Database string.
 	Database string
 	// Validator Models validator.
@@ -33,17 +35,18 @@ type dao struct {
 }
 
 func init() {
-	// Register driver.
-	Server = beego.AppConfig.String("database::server")
-	Database = beego.AppConfig.String("database::database")
+	// Initialize vars.
+	Server = beego.AppConfig.String("databaseserver")
+	DialInfo, _ = mgo.ParseURL(Server)
+	Database = beego.AppConfig.String("databasename")
 
-	// Init validator.
+	// Initialize validator.
 	Validator = validator.New()
 }
 
 // newDB Creates a new session.
 var newDB = func() {
-	session, err := mgo.Dial(Server)
+	session, err := mgo.DialWithInfo(DialInfo)
 	if err != nil {
 		logs.Error(err.Error())
 	}

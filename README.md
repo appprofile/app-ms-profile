@@ -4,7 +4,13 @@ RESTful API for profiles CRUD.
 
 ## Installing
 
+### Installing Golang
+
+
+
 ### Installing Beego
+
+**NOTE:** It is not necessary execute this step if you only want to run the microservice.
 
 Follow the next steps to install the framework Beego in Cloud9. See the official
 guide here https://beego.me/docs/install/bee.md
@@ -34,12 +40,9 @@ $ bee
 
 ### Development server
 
+#### Run
+
+#### Run with Beego
+
 Run `bee run` for a development server. Navigate to `https://{HOST}:{PORT}/swagger` to see the API definition.
 
-## Testing
-
-### Running Tests
-
-```
-go test -run {TEST_NAME}
-``

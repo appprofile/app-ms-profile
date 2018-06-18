@@ -9,11 +9,15 @@ RUN CGO_ENABLED=0 go install -a std
 ENV APP_DIR $GOPATH/src/app-ms-profile
 RUN mkdir -p $APP_DIR
 
-# Set the entrypoint
-ENTRYPOINT (cd $APP_DIR && ./app-ms-profile)
-ADD . $APP_DIR
+# Add files.
+COPY /assets/app.conf /.setup/
+COPY /assets/run.sh /
 
-# Compile the binary and statically link
-RUN cd $APP_DIR && CGO_ENABLED=0 godep go build -ldflags '-d -w -s'
+# Expose port.
+EXPOSE 8081
 
-EXPOSE 8080
+# Se establecen los permisos de ejecución para el fichero run.sh
+RUN chmod a+x /run.sh
+
+# Ejecución del aplicativo.
+ENTRYPOINT ["/run.sh"]
