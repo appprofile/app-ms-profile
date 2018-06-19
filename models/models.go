@@ -70,7 +70,7 @@ func Insert(collection string, model interface{}) error {
 // Read Read from database collection.
 func Read(collection string, id string, model interface{}) error {
 	d := GetDB()
-	err := d.C(collection).FindId(bson.ObjectIdHex(id)).One(model)
+	err := d.C(collection).FindId(id).One(model)
 	return err
 }
 
@@ -84,13 +84,13 @@ func ReadAll(collection string, model interface{}) error {
 // Update Update model.
 func Update(collection string, id string, model interface{}) error {
 	d := GetDB()
-	err := d.C(collection).UpdateId(bson.ObjectIdHex(id), model)
+	err := d.C(collection).UpdateId(id, model)
 	return err
 }
 
 // Delete Delete model.
 func Delete(collection string, id string) error {
 	d := GetDB()
-	err := d.C(collection).Remove(bson.M{"_id": bson.ObjectIdHex(id)})
+	err := d.C(collection).Remove(bson.M{"_id": id})
 	return err
 }

@@ -44,7 +44,6 @@ func (c *ProfileController) CreateProfile() {
 	}
 
 	// Default values.
-	profile.ID = bson.NewObjectId()
 	profile.Created = time.Now()
 	profile.Updated = time.Now()
 
@@ -56,6 +55,12 @@ func (c *ProfileController) CreateProfile() {
 		experience.ID = bson.NewObjectId()
 		experience.Created = time.Now()
 		experience.Updated = time.Now()
+
+		err = models.Validator.Struct(experience)
+		if err != nil {
+			logs.Error(err.Error())
+			c.serveError(http.StatusBadRequest, err.Error())
+		}
 	}
 	if profile.Educations == nil {
 		profile.Educations = make([]*models.Education, 0)
@@ -64,6 +69,12 @@ func (c *ProfileController) CreateProfile() {
 		education.ID = bson.NewObjectId()
 		education.Created = time.Now()
 		education.Updated = time.Now()
+
+		err = models.Validator.Struct(education)
+		if err != nil {
+			logs.Error(err.Error())
+			c.serveError(http.StatusBadRequest, err.Error())
+		}
 	}
 
 	// Insert.
@@ -156,8 +167,16 @@ func (c *ProfileController) UpdateProfile(profile_id *string) {
 	}
 
 	// Update default fields.
-	profile.ID = bson.ObjectIdHex(*profile_id)
+	profile.ID = *profile_id
 	profile.Updated = time.Now()
+
+	// Default values for nested experiences and educations.
+	if profile.Experiences == nil {
+		profile.Experiences = make([]*models.Experience, 0)
+	}
+	if profile.Educations == nil {
+		profile.Educations = make([]*models.Education, 0)
+	}
 
 	// Update.
 	err = models.Update(models.ProfileCollectionName, *profile_id, profile)

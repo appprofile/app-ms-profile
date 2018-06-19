@@ -14,10 +14,11 @@ const (
 
 // Profile struct.
 type Profile struct {
-	ID          bson.ObjectId `bson:"_id" json:"id"`
+	ID          string        `bson:"_id" json:"id" validate:"required"`
 	Name        string        `bson:"name" json:"name" validate:"required"`
 	Address     string        `bson:"address" json:"address"`
 	Phone       uint64        `bson:"phone" json:"phone" validate:"required"`
+	Description string        `bson:"description" json:"description" validate:"required"`
 	Experiences []*Experience `bson:"experiences" json:"experiences"`
 	Educations  []*Education  `bson:"educations" json:"educations"`
 	Abilities   []string      `bson:"abilities" json:"abilities"`
@@ -48,7 +49,7 @@ func (dao *ProfileDao) AddExperience(id string, experience *Experience) error {
 	// Build query.
 	query := bson.M{"$push": bson.M{"experiences": experience}}
 	// Execute query.
-	err := d.C(ProfileCollectionName).Update(bson.M{"_id": bson.ObjectIdHex(id)}, query)
+	err := d.C(ProfileCollectionName).Update(bson.M{"_id": id}, query)
 	return err
 }
 
@@ -59,7 +60,7 @@ func (dao *ProfileDao) AddEducation(id string, education *Education) error {
 	// Build query.
 	query := bson.M{"$push": bson.M{"educations": education}}
 	// Execute query.
-	err := d.C(ProfileCollectionName).Update(bson.M{"_id": bson.ObjectIdHex(id)}, query)
+	err := d.C(ProfileCollectionName).Update(bson.M{"_id": id}, query)
 	return err
 }
 
@@ -69,7 +70,7 @@ func (dao *ProfileDao) GetExperience(id, experienceID string, experience *Experi
 	d := GetDB()
 	// Execute query.
 	wrapper := new(ExperienceWrapper)
-	err := d.C(ProfileCollectionName).Find(bson.M{"_id": bson.ObjectIdHex(id)}).
+	err := d.C(ProfileCollectionName).Find(bson.M{"_id": id}).
 		Select(bson.M{"experiences": bson.M{"$elemMatch": bson.M{"_id": bson.ObjectIdHex(experienceID)}}}).One(wrapper)
 	// Validate.
 	if len(wrapper.Experiences) == 0 {
@@ -87,7 +88,7 @@ func (dao *ProfileDao) GetEducation(id, educationID string, education *Education
 	d := GetDB()
 	// Execute query.
 	wrapper := new(EducationWrapper)
-	err := d.C(ProfileCollectionName).Find(bson.M{"_id": bson.ObjectIdHex(id)}).
+	err := d.C(ProfileCollectionName).Find(bson.M{"_id": id}).
 		Select(bson.M{"educations": bson.M{"$elemMatch": bson.M{"_id": bson.ObjectIdHex(educationID)}}}).One(wrapper)
 	// Validate.
 	if len(wrapper.Educations) == 0 {
@@ -106,7 +107,7 @@ func (dao *ProfileDao) RemoveExperience(id, experienceID string) error {
 	// Build query.
 	query := bson.M{"$pull": bson.M{"experiences": bson.M{"_id": bson.ObjectIdHex(experienceID)}}}
 	// Execute query.
-	err := d.C(ProfileCollectionName).Update(bson.M{"_id": bson.ObjectIdHex(id)}, query)
+	err := d.C(ProfileCollectionName).Update(bson.M{"_id": id}, query)
 	return err
 }
 
@@ -117,7 +118,7 @@ func (dao *ProfileDao) RemoveEducation(id, educationID string) error {
 	// Build query.
 	query := bson.M{"$pull": bson.M{"educations": bson.M{"_id": bson.ObjectIdHex(educationID)}}}
 	// Execute query.
-	err := d.C(ProfileCollectionName).Update(bson.M{"_id": bson.ObjectIdHex(id)}, query)
+	err := d.C(ProfileCollectionName).Update(bson.M{"_id": id}, query)
 	return err
 }
 
@@ -128,7 +129,7 @@ func (dao *ProfileDao) UpdateExperience(id string, experience *Experience) error
 	// Build query.
 	query := bson.M{"$set": bson.M{"experiences.$": experience}}
 	// Execute query.
-	err := d.C(ProfileCollectionName).Update(bson.M{"_id": bson.ObjectIdHex(id), "experiences._id": experience.ID}, query)
+	err := d.C(ProfileCollectionName).Update(bson.M{"_id": id, "experiences._id": experience.ID}, query)
 	return err
 }
 
@@ -139,6 +140,6 @@ func (dao *ProfileDao) UpdateEducation(id string, education *Education) error {
 	// Build query.
 	query := bson.M{"$set": bson.M{"educations.$": education}}
 	// Execute query.
-	err := d.C(ProfileCollectionName).Update(bson.M{"_id": bson.ObjectIdHex(id), "educations._id": education.ID}, query)
+	err := d.C(ProfileCollectionName).Update(bson.M{"_id": id, "educations._id": education.ID}, query)
 	return err
 }
