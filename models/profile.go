@@ -18,6 +18,7 @@ type Profile struct {
 	Name        string        `bson:"name" json:"name" validate:"required"`
 	Address     string        `bson:"address" json:"address"`
 	Phone       uint64        `bson:"phone" json:"phone" validate:"required"`
+	Email       string        `bson:"email" json:"email" validate:"required"`
 	Description string        `bson:"description" json:"description" validate:"required"`
 	Experiences []*Experience `bson:"experiences" json:"experiences"`
 	Educations  []*Education  `bson:"educations" json:"educations"`
