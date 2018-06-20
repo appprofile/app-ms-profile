@@ -17,7 +17,8 @@ type Education struct {
 	Course      string        `bson:"course" json:"course" validate:"required"`
 	Institute   string        `bson:"institute" json:"institute" validate:"required"`
 	From        time.Time     `bson:"from" json:"from" validate:"required"`
-	To          time.Time     `bson:"to" json:"to" validate:"required"`
+	To          time.Time     `bson:"to" json:"to"`
+	Current     bool          `bson:"current" json:"current"`
 	Description string        `bson:"description" json:"description"`
 	Created     time.Time     `bson:"created" json:"created"`
 	Updated     time.Time     `bson:"updated" json:"updated"`

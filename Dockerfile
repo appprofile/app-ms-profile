@@ -20,8 +20,8 @@ COPY ./assets/run.sh /
 # Expose port.
 EXPOSE 8081
 
-# Se establecen los permisos de ejecución para el fichero run.sh
+# Add permissions.
 RUN chmod a+x /run.sh
 
-# Ejecución del aplicativo.
+# Execute.
 ENTRYPOINT ["/run.sh"]

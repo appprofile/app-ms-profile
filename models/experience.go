@@ -17,7 +17,8 @@ type Experience struct {
 	Title       string        `bson:"title" json:"title" validate:"required"`
 	Company     string        `bson:"company" json:"company" validate:"required"`
 	From        time.Time     `bson:"from" json:"from" validate:"required"`
-	To          time.Time     `bson:"to" json:"to" validate:"required"`
+	To          time.Time     `bson:"to" json:"to"`
+	Current     bool          `bson:"current" json:"current"`
 	Description string        `bson:"description" json:"description"`
 	Created     time.Time     `bson:"created" json:"created"`
 	Updated     time.Time     `bson:"updated" json:"updated"`
